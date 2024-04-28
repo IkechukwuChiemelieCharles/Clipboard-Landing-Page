@@ -166,11 +166,21 @@ footer a {
   margin-bottom: 10px;
 }
 .third-logo-set {
-  margin-top: 10px;
+  margin-top: 5px;
+}
+.first-logo-set a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.second-logo-set a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.third-logo-set a:hover {
+  color: hsl(171, 66%, 44%);
 }
 .social-logos img {
   width: 10px;
 }
+
 @media screen and (min-width: 576px) {
   .container {
     width: 100vw;
@@ -339,8 +349,11 @@ footer a {
   }
 
   .desktop-img img {
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
+  }
+  .comp-text {
+    margin-top: 10px;
   }
   .comp-text p {
     text-align: left;
@@ -442,6 +455,9 @@ footer a {
     padding: 0 270px 0 270px;
   }
 
+  .comp-text {
+    margin-top: 60px;
+  }
   .comp-text p {
     text-align: left;
     padding: 0 80px 0 80px;
@@ -540,12 +556,15 @@ footer a {
   .track-sub p {
     padding: 0 400px 0 400px;
   }
+  .comp-text {
+    margin-left: -100px;
+  }
   .comp-text p {
     text-align: left;
-    padding: 0 200px 0 200px;
+    padding: 0 250px 0 250px;
   }
   .comp-text h3 {
-    padding: 0 200px 0 200px;
+    padding: 0 250px 0 250px;
   }
   .ipad p {
     padding: 0 420px 0 420px;
